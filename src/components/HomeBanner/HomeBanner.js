@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import './HomeBanner.css'
 import football from '../../images/football.ico'
 
