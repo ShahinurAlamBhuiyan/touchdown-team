@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Teams from '../Teams/Teams';
-import Header from '../Header/Header';
+import HomeBanner from '../HomeBanner/HomeBanner';
 
 const Home = () => {
     const [teams, setTeams] = useState([])
@@ -11,14 +11,13 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setTeams(data.teams));
     }, [])
-
     return (
         <>
-            <Header />
+            <HomeBanner />
             <div className="container">
                 <div className='row'>
                     {
-                        teams.map(team => <Teams team={team}></Teams>)
+                        teams.map(team => <Teams key={team.idTeam} team={team}></Teams>)
                     }
                 </div>
             </div>

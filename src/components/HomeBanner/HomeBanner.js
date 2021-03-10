@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './Header.css'
+import './HomeBanner.css'
 import football from '../../images/football.ico'
 
-const Header = () => {
+const HomeBanner = () => {
 
     return (
         <div className="headerDiv container-fluid">
@@ -17,4 +17,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default HomeBanner;
