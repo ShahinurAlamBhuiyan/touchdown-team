@@ -22,13 +22,6 @@ const TeamDetails = () => {
     console.log(team)
     const { strGender, strTeamBanner, strSport, strTeam, strDescriptionEN, intFormedYear, strTeamBadge, strStadiumThumb, strStadiumDescription, strTwitter, strYoutube, strWebsite, strCountry } = team;
 
-    // let playerImg;
-    // if (strGender === 'Male') {
-    //     playerImg = <img src={maleImg} alt="" />
-    // }
-    // else if (strGender === 'Female') {
-    //     playerImg = <img src={femaleImg} alt="" />
-    // }
     return (
         <>
 
@@ -58,9 +51,9 @@ const TeamDetails = () => {
                         <p><strong>About Stadium : {strStadiumDescription}</strong></p>
 
                         <div className="socialIcons d-flex justify-content-center">
-                            <a className="twitter" href={`https://${strTwitter}`} target='_blank'><FontAwesomeIcon icon={faTwitter} /></a>
-                            <a className="youtube" href={`https://${strYoutube}`} target='_blank'><FontAwesomeIcon icon={faYoutube} /></a>
-                            <a className="website" href={`https://${strWebsite}`} target='_blank'><FontAwesomeIcon icon={faChrome} /></a>
+                            <a className="twitter" href={`https://${strTwitter}`}rel='noreferrer' target='_blank'><FontAwesomeIcon icon={faTwitter} /></a>
+                            <a className="youtube" href={`https://${strYoutube}`} rel='noreferrer'target='_blank'><FontAwesomeIcon icon={faYoutube} /></a>
+                            <a className="website" href={`https://${strWebsite}`} rel='noreferrer'target='_blank'><FontAwesomeIcon icon={faChrome} /></a>
                         </div>
                     </div>
 
