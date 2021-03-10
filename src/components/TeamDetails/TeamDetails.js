@@ -7,7 +7,6 @@ import './TeamDetails.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFlag, faFutbol, faMapMarkerAlt, faMars } from '@fortawesome/free-solid-svg-icons'
 import { faChrome, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { Link } from 'react-router-dom';
 
 const TeamDetails = () => {
     const [team, setTeam] = useState([])
