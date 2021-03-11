@@ -1,17 +1,16 @@
 
 .main-detail-div{
-    background-color: rgb(2, 2, 102);
     background-position: cover;
 }
 .description p{
-    color: gray;
+    color: rgb(235, 228, 228);
 }
 .team-box{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: blue;
+    background-color: #003B46;
     color: white;
     border-radius: 10px;
     padding: 10px;
@@ -35,8 +34,8 @@
 }
 
 .socialIcons a{
-    background-color:#eceeef;
-    color:#818a91;
+    background-color:#82898d;
+    color:#1a1d1f;
     font-size:16px;
     display:inline-block;
     line-height:44px;
@@ -67,6 +66,9 @@
 .socialIcons .youtube:hover{
   background-color:#ed000c
 }
-.socialIcons .website:hover{
-  background-color:#06f516
+.socialIcons .facebook:hover{
+  background-color:#0a49d1;
+}
+.socialIcons .instagram:hover{
+  background-color: black;
 }

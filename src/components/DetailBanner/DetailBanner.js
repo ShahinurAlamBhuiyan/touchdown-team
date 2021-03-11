@@ -3,6 +3,8 @@ import React from 'react';
 const DetailBanner = (props) => {
     
     const detailBannerStyle = {
+        fontWeight: '800',
+        color: 'black',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -15,7 +17,7 @@ const DetailBanner = (props) => {
     return (
         <div className='detailDiv container-fluid' style={detailBannerStyle}>
             <img style={{ width: '14rem' }} src={props.strTeamBadge} alt="" />
-            <h2 className='text-gray' style={{ fontSize: '2.5rem', fontWeight: '600' }}>{props.strTeam}</h2>
+            <h2 className='text-gray' style={{ fontSize: '2.5rem', fontWeight: '600' }}>&nbsp;{props.strTeam}</h2>
         </div>
     );
 };
