@@ -1,6 +1,6 @@
 # Touchdown-Team
 ## Site Details...
-* This is a react website which have some team details from a third party website.  
+* This is a simple react website which have some team details from a third party website.  
 ## Technology...
 * React
 
