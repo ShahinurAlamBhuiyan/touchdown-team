@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
 .headerDiv{
     display: flex;
     justify-content: center;
@@ -8,5 +9,8 @@
     background-position: center;
 }
 .footballLogo{
-    width: 10rem;
+    width: 9rem;
+}
+.headerDiv p{
+    font-family: 'Ravi Prakash', cursive;
 }
