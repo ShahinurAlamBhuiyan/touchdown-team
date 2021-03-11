@@ -1,3 +1,4 @@
+
 .main-detail-div{
     background-color: rgb(2, 2, 102);
     background-position: cover;
@@ -16,7 +17,7 @@
     padding: 10px;
 }
 .team-box img{
-    width: 23rem;
+    width: 20rem;
     height: 15rem;
 }
 .text-box{

@@ -38,7 +38,7 @@ const TeamDetails = () => {
                             <p><strong><FontAwesomeIcon icon={faFutbol} /> Sport Type: {strSport}</strong></p>
                             <p><strong><FontAwesomeIcon icon={faMars} /> Gender: {strGender}</strong></p>
                         </div>
-                        <div className="photo">
+                        <div className="photo d-flex justify-content-center flex-wrap">
                             {
                                 strGender === 'Male' ? <img src={maleImg} alt="" /> : <img src={femaleImg} alt="" />
                             }

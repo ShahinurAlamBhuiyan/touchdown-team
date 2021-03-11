@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <>
             <HomeBanner />
-            <div className="container">
+            <div className="container pt-4">
                 <div className='row'>
                     {
                         teams.map(team => <Teams key={team.idTeam} team={team}></Teams>)
